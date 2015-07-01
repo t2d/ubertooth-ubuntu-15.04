@@ -16,7 +16,8 @@ cp kismet-plugins/ubertooth_ui.so ~/.kismet/client_plugins/
 
 ## Udev
 Ubuntu uses 'plugdev' as group for usb permissions. Copy them with
-```sudo cp 40-ubertooth.rules /etc/udev/rules.d/
+```
+sudo cp 40-ubertooth.rules /etc/udev/rules.d/
 ```
 Log out and in to get correct permissions.
 Also deattach and reattach the ubertooth. 
